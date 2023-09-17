@@ -33,3 +33,16 @@ def default_parameters(user_name="anonymous"):
 
 default_parameters()
 default_parameters("peca")
+
+# Retrun Values
+def return_values(prize, devide_winner):
+    return prize / devide_winner
+
+print(return_values(100,2))
+
+# Format String
+my_name = "peca"
+my_age = 37
+
+format_string = f"Hello I'm {my_name}, I have {my_age} years old."
+print(format_string)
