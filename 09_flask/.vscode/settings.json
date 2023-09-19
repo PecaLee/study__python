@@ -2,5 +2,12 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.formatting.provider": "none"
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Args": ["--max-line-length=88", "--ignore=F401,E402"],
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": " /home/peca/.local/share/virtualenvs/09_flask-gPJk2ldD/bin/black",
+  "editor.formatOnSave": true,
 }
