@@ -5,5 +5,5 @@ app = Flask("minimalServer")
 
 @app.route("/")
 def home():
-    args = request.args
-    return render_template("home.html", args=args)
+    listing_num = [1,2,3,4,5,6,7,8,9,10]
+    return render_template("home.html", args=listing_num)

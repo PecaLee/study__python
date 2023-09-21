@@ -7,7 +7,11 @@
   </head>
   <body>
     <h1>Hello World</h1>
-    <h2>{{args.get("keyworld")}} {{args.get("keyword")}}</h2>
+    <ul>
+      {% for a in args %}
+      <li>{{a}}</li>
+      {% endfor %}
+    </ul>
     <form action="">
       <input type="text" name="keyworld" />
       <input type="text" name="keyword" />
